@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		93D0C7FFE0AC594516D5951A /* Pods_Snapchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B4881B7C08B9F25D401B31 /* Pods_Snapchat.framework */; };
 		A91533AF2294A13800C59739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91533AE2294A13800C59739 /* AppDelegate.swift */; };
-		A91533B12294A13800C59739 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91533B02294A13800C59739 /* ViewController.swift */; };
+		A91533B12294A13800C59739 /* IniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91533B02294A13800C59739 /* IniciarSesionViewController.swift */; };
 		A91533B42294A13800C59739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91533B22294A13800C59739 /* Main.storyboard */; };
 		A91533B62294A13800C59739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91533B52294A13800C59739 /* Assets.xcassets */; };
 		A91533B92294A13800C59739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91533B72294A13800C59739 /* LaunchScreen.storyboard */; };
@@ -21,7 +21,7 @@
 		A5B4881B7C08B9F25D401B31 /* Pods_Snapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91533AB2294A13800C59739 /* Snapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91533AE2294A13800C59739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A91533B02294A13800C59739 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A91533B02294A13800C59739 /* IniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniciarSesionViewController.swift; sourceTree = "<group>"; };
 		A91533B32294A13800C59739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A91533B52294A13800C59739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A91533B82294A13800C59739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				A91533AE2294A13800C59739 /* AppDelegate.swift */,
-				A91533B02294A13800C59739 /* ViewController.swift */,
+				A91533B02294A13800C59739 /* IniciarSesionViewController.swift */,
 				A938E21D2294B33F0021E473 /* GoogleService-Info.plist */,
 				A91533B22294A13800C59739 /* Main.storyboard */,
 				A91533B52294A13800C59739 /* Assets.xcassets */,
@@ -207,7 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A91533B12294A13800C59739 /* ViewController.swift in Sources */,
+				A91533B12294A13800C59739 /* IniciarSesionViewController.swift in Sources */,
 				A91533AF2294A13800C59739 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
